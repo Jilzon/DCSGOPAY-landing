@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DCSGOPAY</title>
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="./css/font-poppins.css" rel="stylesheet">
+    <link rel="stylesheet" href="./bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="./bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style-welcome.css">
+    <script src="./welcome.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container welcome-container">
+            <div class="welcome-logo">
+                <a href=""><img src="./images/dcs-logo.svg" alt="Logo"></a>
+            </div>
+            <!-- Hamburger Menu Button -->
+            <div class="hamburger-menu">
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="header-nav">
+                <a href="#Staging">Staging</a>
+                <a href="#Integrator-api">APIs</a>
+                <a href="#Administration">Administration</a>
+                <a href="#Resources">Support</a>
+                <a href="#FAQ">FAQ</a>
+                <a href="#Contact">Contact</a>
+            </div>
+            <div class="welcome-search-input">
+                <input type="text" class="welcome-form-control" placeholder="Search">
+                <img src="./images/search-icon.svg" alt="search-icon" class="search-icon">
+            </div>
+        </div>
+    </header>
+
+    <!-- Spotlight section -->
+    <section class="spotlight-section">
+        <div class="container spotlight-container fade-hidden">
+            <h2>Welcome salutation needed</h2>
+            <p>Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum
+                pellentesque lorem. Malesuada lobortis tristique tortor,</p>
+            <a href="">Explore More</a>
+        </div>
+        <div class="spotlight-rotate-container fade-hidden">
+            <img src="./images/spotlight-man-img.png" class="spotlight-man-img" alt="homepage image">
+            <img src="./images/virtual-card-payment.png" class="spotlight-payment-img" alt="homepage image">
+            <img src="./images/spotlight-users-img.png" class="spotlight-users-img" alt="homepage image">
+            <img src="./images/spotlight-icon1.png" class="spotlight-icon1-img" alt="homepage image">
+            <img src="./images/spotlight-icon2.png" class="spotlight-icon2-img" alt="homepage image">
+            <div class="spotlight-icon3-img-block">
+                <img src="./images/dollar-icon.png" class="spotlight-icon3-img" alt="homepage image">
+            </div>
+        </div>
+    </section>
+
+    <!-- staging and production button section -->
+    <section class="virtual-card-section" id="Staging">
+        <!-- button group starts -->
+        <div class="container">
+            <div class="btn-group welcome-btn-group fade-hidden" role="group">
+                <button type="button" class="welcome-btn staging-btn" id="staging-btn">Staging</button>
+                <div class="btn-group-lock-div">
+                    <button type="button" class="welcome-btn production-btn" id="production-btn">Production</button>
+                    <img src="./images/Lock.png" alt="icon">
+                </div>
+            </div>
+        </div>
+        <!-- button group ends -->
+        <div class="container virtual-card-block">
+            <div class="virtual-card-half-block virtual-card-left-block">
+                <div class="virtual-card-imgs-block fade-hidden">
+                    <img src="./images/virtual-card-holder.png" class="virtual-card-holder" alt="card image">
+                    <img src="./images/virtual-card-name-template.png" class="virtual-card-name-template"
+                        alt="card image">
+                    <img src="./images/virtual-card-payment.png" class="virtual-card-payment" alt="card image">
+                </div>
+
+
+            </div>
+            <div class="virtual-card-half-block" id="section1">
+                <ul class="virtual-card-ul">
+                    <li class="virtual-card-li fade-hidden">
+                        <div class="virtual-card-inner-block">
+                            <div>
+                                <img src="./images/Avatar.svg" alt="icon">
+                            </div>
+                            <div class="virtual-card-head-block">
+                                <h3 class="welcome-head">Sit quam gravida</h3>
+                                <p class="welcome-para">Et hendrerit turpis habitant cursus semper ultrices in nunc.
+                                    Erat eget etiam senectus vestibulum risus.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="virtual-card-li fade-hidden">
+                        <div class="virtual-card-inner-block">
+                            <div>
+                                <img src="./images/Avatar-1.svg" alt="icon">
+                            </div>
+                            <div class="virtual-card-head-block">
+                                <h3 class="welcome-head">Elementum enim tempus</h3>
+                                <p class="welcome-para">Et hendrerit turpis habitant cursus semper ultrices in nunc.
+                                    Erat eget etiam senectus vestibulum risus.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="virtual-card-li fade-hidden">
+                        <div class="virtual-card-inner-block">
+                            <div>
+                                <img src="./images/Avatar-2.svg" alt="icon">
+                            </div>
+                            <div class="virtual-card-head-block">
+                                <h3 class="welcome-head">Tempor egestas augue</h3>
+                                <p class="welcome-para">Et hendrerit turpis habitant cursus semper ultrices in nunc.
+                                    Erat eget etiam senectus vestibulum risus.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="virtual-card-li fade-hidden">
+                        <div class="virtual-card-inner-block">
+                            <div>
+                                <img src="./images/Avatar-3.svg" alt="icon">
+                            </div>
+                            <div class="virtual-card-head-block">
+                                <h3 class="welcome-head">Nulla ac lacinia</h3>
+                                <p class="welcome-para">Et hendrerit turpis habitant cursus semper ultrices in nunc.
+                                    Erat eget etiam senectus vestibulum risus.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="virtual-card-half-block section-hidden" id="section2">
+                <ul class="virtual-card-ul">
+                    <li>
+                        <div class="virtual-card-inner-block">
+                            <div>
+                                <img src="./images/Avatar.svg" alt="icon">
+                            </div>
+                            <div class="virtual-card-head-block">
+                                <h3 class="welcome-head">Sit quam gravida</h3>
+                                <p class="welcome-para">Et hendrerit turpis habitant cursus semper ultrices in nunc.
+                                    Erat eget etiam senectus vestibulum risus.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="virtual-card-inner-block">
+                            <div>
+                                <img src="./images/Avatar-1.svg" alt="icon">
+                            </div>
+                            <div class="virtual-card-head-block">
+                                <h3 class="welcome-head">Elementum enim tempus</h3>
+                                <p class="welcome-para">Et hendrerit turpis habitant cursus semper ultrices in nunc.
+                                    Erat eget etiam senectus vestibulum risus.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="virtual-card-inner-block">
+                            <div>
+                                <img src="./images/Avatar-2.svg" alt="icon">
+                            </div>
+                            <div class="virtual-card-head-block">
+                                <h3 class="welcome-head">Tempor egestas augue</h3>
+                                <p class="welcome-para">Et hendrerit turpis habitant cursus semper ultrices in nunc.
+                                    Erat eget etiam senectus vestibulum risus.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Integrator APIs section -->
+    <section class="integrator-section" id="Integrator-api">
+        <div class="container fade-hidden">
+            <h4 class="text-center section-heading">Integrator APIs</h4>
+            <p class="text-center section-para">Simple, transparent pricing that grows with you. Try any plan free for
+                30 days.
+            </p>
+        </div>
+        <!-- card block -->
+        <div class="container api-card-container">
+            <div class="row row-cols-1 row-cols-sm-3 g-3 justify-content-between">
+                <div class="col api-card-seperate-block fade-hidden">
+                    <div class="card api-card">
+                        <img src="./images/deliver-answer-icon.svg" alt="icon" class="api-position-icon">
+                        <h5 class="api-card-title text-center">CFP</h5>
+                        <div class="card-body">
+                            <ul class="api-card-ul">
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> lorem text again lorem Lorem
+                                    Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#" class="api-card-btn">Explore</a>
+                    </div>
+                </div>
+
+                <div class="col api-card-seperate-block fade-hidden">
+                    <div class="card api-card">
+                        <img src="./images/deliver-answer-icon.svg" alt="icon" class="api-position-icon">
+                        <h5 class="api-card-title text-center">FAB</h5>
+                        <div class="card-body">
+                            <ul class="api-card-ul">
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#" class="api-card-btn api-card-btn-disable">Contact Admin</a>
+                    </div>
+                </div>
+
+                <div class="col api-card-seperate-block fade-hidden">
+                    <div class="card api-card">
+                        <img src="./images/deliver-answer-icon.svg" alt="icon" class="api-position-icon">
+                        <h5 class="api-card-title text-center">Incom</h5>
+                        <div class="card-body">
+                            <ul class="api-card-ul">
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> lorem text again lorem Lorem
+                                    Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#" class="api-card-btn">Explore</a>
+                    </div>
+                </div>
+
+                <div class="col api-card-seperate-block fade-hidden">
+                    <div class="card api-card">
+                        <img src="./images/deliver-answer-icon.svg" alt="icon" class="api-position-icon">
+                        <h5 class="api-card-title text-center">Greendot</h5>
+                        <div class="card-body">
+                            <ul class="api-card-ul">
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> lorem text again lorem Lorem
+                                    Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#" class="api-card-btn">Explore</a>
+                    </div>
+                </div>
+
+                <div class="col api-card-seperate-block fade-hidden">
+                    <div class="card api-card">
+                        <img src="./images/deliver-answer-icon.svg" alt="icon" class="api-position-icon">
+                        <h5 class="api-card-title text-center">Netspend</h5>
+                        <div class="card-body">
+                            <ul class="api-card-ul">
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> lorem text again lorem Lorem
+                                    Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#" class="api-card-btn">Explore</a>
+                    </div>
+                </div>
+
+                <div class="col api-card-seperate-block fade-hidden">
+                    <div class="card api-card">
+                        <img src="./images/deliver-answer-icon.svg" alt="icon" class="api-position-icon">
+                        <h5 class="api-card-title text-center">Barma</h5>
+                        <div class="card-body">
+                            <ul class="api-card-ul">
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> lorem text again lorem Lorem
+                                    Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                                <li><img src="./images/Check icon (3).svg" alt="icon"> Lorem Ipsum is simply dummy text
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#" class="api-card-btn">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Administration section -->
+    <section class="administration-section" id="Administration">
+        <div class="container fade-hidden">
+            <h4 class="text-center section-heading">Administration</h4>
+            <p class="text-center section-para">Powerful, self-serve product and growth analytics to help you convert,
+                engage, and retain more users. Trusted by over 4,000 startups.</p>
+        </div>
+
+        <div class="container admin-card-block">
+            <div class="virtual-card-half-block">
+                <ul class="virtual-card-ul admin-card-ul">
+                    <li class="admin-card-li fade-hidden">
+                        <div class="virtual-card-inner-block">
+                            <div>
+                                <img src="./images/share-team-icon.svg" alt="icon">
+                            </div>
+                            <div class="admin-card-head-block">
+                                <h3 class="welcome-head">Share team inboxes</h3>
+                                <p class="welcome-para">Make the appearance of a mobile application that
+                                    has quality and increases user convenience
+                                </p>
+                                <a href="">Read More</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="admin-card-li fade-hidden">
+                        <div class="virtual-card-inner-block">
+                            <div>
+                                <img src="./images/deliver-answer-icon.svg" alt="icon">
+                            </div>
+                            <div class="admin-card-head-block">
+                                <h3 class="welcome-head">Deliver instant answers</h3>
+                                <p class="welcome-para">Help create a website and redesign it so that it
+                                    becomes a website that is more trendy and looks fresh.
+                                </p>
+                                <a href="">Read More</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="admin-card-li fade-hidden">
+                        <div class="virtual-card-inner-block">
+                            <div>
+                                <img src="./images/manage-service-icon.svg" alt="icon">
+                            </div>
+                            <div class="admin-card-head-block">
+                                <h3 class="welcome-head">Manage your team with reports</h3>
+                                <p class="welcome-para">Create customizable illustrations with attractive
+                                    designs that are made visually through high creativity
+                                </p>
+                                <a href="">Read More</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="virtual-card-half-block admin-card-inner-block fade-hidden">
+                <!-- <img src="./images/administ-img.png" alt="icon"> -->
+                <img src="./images/administration-main-img.png" class="admin-main-img" alt="icon">
+                <img src="./images/administration-sub-img1.png" class="admin-main-img1" alt="icon">
+                <img src="./images/administration-sub-img2.png" class="admin-main-img2" alt="icon">
+            </div>
+
+        </div>
+    </section>
+    <!-- support channel section -->
+    <section class="support-channel-section" id="Resources">
+        <div class="container fade-hidden">
+            <h4 class="text-center section-heading">DGP Resources and Support Channels</h4>
+            <p class="text-center section-para">Powerful, self-serve product and growth analytics to help you convert,
+                engage, and retain more users. Trusted by over 4,000 startups.</p>
+        </div>
+        <div class="container support-channel-container">
+            <!-- support channel card -->
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3 justify-content-between">
+                <div class="col support-card-small fade-hidden">
+                    <div class="card support-channel-card">
+                        <img src="./images/share-team-color-icon.svg" alt="icon">
+                        <div class="card-body">
+                            <h5>Share team inboxes</h5>
+                            <p>Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same
+                                page and
+                                in the loop.</p>
+                        </div>
+                        <button type="button" data-mdb-ripple-init>Learn More</button>
+                    </div>
+                </div>
+                <div class="col support-card-small fade-hidden">
+                    <div class="card support-channel-card">
+                        <img src="./images/deliver-ans-color-icon.svg" alt="icon">
+                        <div class="card-body">
+                            <h5>Deliver instant answers</h5>
+                            <p>An all-in-one customer service platform that helps you balance everything your customers
+                                need to be happy.</p>
+                        </div>
+                        <button type="button" data-mdb-ripple-init>Learn More</button>
+                    </div>
+                </div>
+                <div class="col support-card-small fade-hidden">
+                    <div class="card support-channel-card">
+                        <img src="./images/manage-team-color-icon.svg" alt="icon">
+                        <div class="card-body">
+                            <h5>Manage your team</h5>
+                            <p>Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same
+                                page and
+                                in the loop.</p>
+                        </div>
+                        <button type="button" data-mdb-ripple-init>Learn More</button>
+                    </div>
+                </div>
+                <div class="col support-card-small fade-hidden">
+                    <div class="card support-channel-card">
+                        <img src="./images/connect-cust-icon.svg" alt="icon">
+                        <div class="card-body">
+                            <h5>Connect with customers</h5>
+                            <p>Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same
+                                page and
+                                in the loop.</p>
+                        </div>
+                        <button type="button" data-mdb-ripple-init>Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- faq section -->
+    <section class="faq-section" id="FAQ">
+        <div class="container">
+            <div class="fade-hidden">
+                <h4 class="text-center section-heading">Frequently asked questions</h4>
+                <p class="text-center section-para">Everything you need to know about the product and billing.</p>
+            </div>
+            <div class="accordion">
+                <div class="accordion-item fade-hidden">
+                    <div class="accordion-title">Is there a free trial available?</div>
+                    <div class="accordion-content">
+                        <p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free,
+                            personalized 30-minute onboarding call to get you up and running as soon as possible.</p>
+                    </div>
+                </div>
+                <div class="accordion-item fade-hidden">
+                    <div class="accordion-title">Can I change my plan later?</div>
+                    <div class="accordion-content">
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout.</p>
+                    </div>
+                </div>
+                <div class="accordion-item fade-hidden">
+                    <div class="accordion-title">What is your cancellation policy?</div>
+                    <div class="accordion-content">
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                            classical Latin literature from 45 BC.</p>
+                    </div>
+                </div>
+                <div class="accordion-item fade-hidden">
+                    <div class="accordion-title">Can other info be added to an invoice?</div>
+                    <div class="accordion-content">
+                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+                            interested.</p>
+                    </div>
+                </div>
+                <div class="accordion-item fade-hidden">
+                    <div class="accordion-title">How does billing work?</div>
+                    <div class="accordion-content">
+                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+                            interested.</p>
+                    </div>
+                </div>
+                <div class="accordion-item fade-hidden">
+                    <div class="accordion-title">How do I change my account email?</div>
+                    <div class="accordion-content">
+                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+                            interested.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Get in touch green block -->
+    <section>
+        <div class="container get-in-contact-section">
+            <div class="row align-items-center fade-hidden">
+                <div class="col-md-5 col-12 get-in-left">
+                    <img src="./images/dcs-white-logo.png" alt="logo">
+                    <a class="btn btn-contact" href="#">Get in touch</a>
+                </div>
+                <div class="col-md-7 col-12 get-in-right">
+                    <div class="get-in-contact-info">
+                        <div class="get-in-contact-info-span-block">
+                            <div class="get-in-span-inner">
+                                <img src="./images/get-mail-icon.png" alt="logo">
+                                <div>
+                                    <p>Email</p>
+                                    <p><a href="mailto:support@dcsgopay.com">support@dcsgopay.com</a></p>
+                                </div>
+                            </div>
+                            <div class="get-in-span-inner">
+                                <img src="./images/get-phn-icon.png" alt="logo">
+                                <div>
+                                    <p>Phone Number</p>
+                                    <p><a href="tel:+621829017">(62) 1829017</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="get-in-contact-details">
+                            We are available to assist you every day from 8 am - 8 pm
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact us section -->
+    <section class="contact-section" id="Contact">
+        <div class="container contact-section-container">
+            <div class="row align-items-center justify-content-between contact-section-container-flex">
+                <div class="col-md-6 contact-card-outer fade-hidden">
+                        <img src="./images/credit-card-img.png" id="contact-card-element"  alt="Contact Image">
+                        <img src="./images/credit-card-bg.png" id="contact-card-bg"  alt="Contact Image">
+                </div>
+                <div class="col-md-6 landing-contact-form-outer">
+                    <div class="landing-contact-form fade-hidden">
+                        <h5>Contact Us</h5>
+                        <p>Our friendly team would love to hear from you.</p>
+                        <form>
+                            <div class="form-group inline-form">
+                                <div>
+                                    <label for="firstName">First Name</label>
+                                    <input type="text" class="form-control" id="firstName" placeholder="First name"
+                                        required>
+                                </div>
+                                <div>
+                                    <label for="lastName">Last Name</label>
+                                    <input type="text" class="form-control" id="lastName" placeholder="Last name"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="you@company.com"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneNumber">Phone Number</label>
+                                <div class="custom-input-group">
+                                    <select class="custom-select" id="countryCode" required>
+                                        <option value="us">US</option>
+                                        <option value="in">IN</option>
+                                    </select>
+                                    <input type="tel" class="form-control" id="phoneNumber"
+                                        placeholder="+1 (555) 000-0000" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Leave us a message..."
+                                    required></textarea>
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="agreeTerms" required>
+                                <label class="form-check-label" for="agreeTerms">You agree to our friendly privacy
+                                    policy.</label>
+                            </div>
+                            <button type="submit" class="btn btn-contact-submit">Send message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
